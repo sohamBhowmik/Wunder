@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3513BF211F4659000945F2 /* CarTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3513BE211F4659000945F2 /* CarTableHeaderView.swift */; };
+		0F3513C1211F4661000945F2 /* CarTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3513C0211F4661000945F2 /* CarTableHeaderView.xib */; };
+		0F5951EF211DE0D300F9EE67 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5951ED211DE0D300F9EE67 /* CarTableViewCell.swift */; };
+		0F5951F0211DE0D300F9EE67 /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5951EE211DE0D300F9EE67 /* CarTableViewCell.xib */; };
+		0F5951F4211DEB9800F9EE67 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5951F2211DEB9800F9EE67 /* MapViewController.swift */; };
+		0F5951F5211DEB9800F9EE67 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5951F3211DEB9800F9EE67 /* MapViewController.xib */; };
+		0F5951F8211E233500F9EE67 /* CustomMapPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5951F7211E233500F9EE67 /* CustomMapPopoverView.swift */; };
+		0F5951FA211E233F00F9EE67 /* CustomMapPopoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5951F9211E233F00F9EE67 /* CustomMapPopoverView.xib */; };
 		0FE89DBC211C90BD001DD9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE89DBB211C90BD001DD9DE /* AppDelegate.swift */; };
 		0FE89DBE211C90BD001DD9DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE89DBD211C90BD001DD9DE /* ViewController.swift */; };
 		0FE89DC1211C90BD001DD9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE89DBF211C90BD001DD9DE /* Main.storyboard */; };
 		0FE89DC3211C90BF001DD9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE89DC2211C90BF001DD9DE /* Assets.xcassets */; };
 		0FE89DC6211C90BF001DD9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE89DC4211C90BF001DD9DE /* LaunchScreen.storyboard */; };
 		0FE89DD1211C90C0001DD9DE /* WunderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE89DD0211C90C0001DD9DE /* WunderTests.swift */; };
+		0FE89DDD211C9101001DD9DE /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE89DDC211C9101001DD9DE /* Car.swift */; };
+		0FE89DE0211C92F0001DD9DE /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE89DDF211C92F0001DD9DE /* CarViewModel.swift */; };
+		0FE89DE2211C92F9001DD9DE /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE89DE1211C92F9001DD9DE /* Box.swift */; };
+		0FE89DE5211C97A1001DD9DE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE89DE4211C97A1001DD9DE /* NetworkManager.swift */; };
+		0FE89DE6211CC5C3001DD9DE /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE89DDF211C92F0001DD9DE /* CarViewModel.swift */; };
+		0FE89DE7211CC7D5001DD9DE /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE89DE1211C92F9001DD9DE /* Box.swift */; };
+		0FE89DE8211CC7D9001DD9DE /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE89DDC211C9101001DD9DE /* Car.swift */; };
+		0FE89DEA211CC806001DD9DE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE89DE4211C97A1001DD9DE /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F3513BE211F4659000945F2 /* CarTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableHeaderView.swift; sourceTree = "<group>"; };
+		0F3513C0211F4661000945F2 /* CarTableHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarTableHeaderView.xib; sourceTree = "<group>"; };
+		0F5951ED211DE0D300F9EE67 /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		0F5951EE211DE0D300F9EE67 /* CarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
+		0F5951F2211DEB9800F9EE67 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0F5951F3211DEB9800F9EE67 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		0F5951F7211E233500F9EE67 /* CustomMapPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapPopoverView.swift; sourceTree = "<group>"; };
+		0F5951F9211E233F00F9EE67 /* CustomMapPopoverView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMapPopoverView.xib; sourceTree = "<group>"; };
 		0FE89DB8211C90BD001DD9DE /* Wunder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wunder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE89DBB211C90BD001DD9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FE89DBD211C90BD001DD9DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +60,10 @@
 		0FE89DCC211C90C0001DD9DE /* WunderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE89DD0211C90C0001DD9DE /* WunderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderTests.swift; sourceTree = "<group>"; };
 		0FE89DD2211C90C0001DD9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FE89DDC211C9101001DD9DE /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		0FE89DDF211C92F0001DD9DE /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
+		0FE89DE1211C92F9001DD9DE /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		0FE89DE4211C97A1001DD9DE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F5951E8211DE04D00F9EE67 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0F5951ED211DE0D300F9EE67 /* CarTableViewCell.swift */,
+				0F5951EE211DE0D300F9EE67 /* CarTableViewCell.xib */,
+				0F3513BE211F4659000945F2 /* CarTableHeaderView.swift */,
+				0F3513C0211F4661000945F2 /* CarTableHeaderView.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0F5951F1211DEB6500F9EE67 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				0F5951F6211E230200F9EE67 /* Views */,
+				0F5951F2211DEB9800F9EE67 /* MapViewController.swift */,
+				0F5951F3211DEB9800F9EE67 /* MapViewController.xib */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		0F5951F6211E230200F9EE67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F5951F7211E233500F9EE67 /* CustomMapPopoverView.swift */,
+				0F5951F9211E233F00F9EE67 /* CustomMapPopoverView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0FE89DAF211C90BD001DD9DE = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +135,13 @@
 		0FE89DBA211C90BD001DD9DE /* Wunder */ = {
 			isa = PBXGroup;
 			children = (
+				0FE89DDB211C90DA001DD9DE /* Model */,
+				0FE89DDE211C92DA001DD9DE /* View Model */,
+				0F5951E8211DE04D00F9EE67 /* Cells */,
 				0FE89DBB211C90BD001DD9DE /* AppDelegate.swift */,
 				0FE89DBD211C90BD001DD9DE /* ViewController.swift */,
+				0F5951F1211DEB6500F9EE67 /* MapView */,
+				0FE89DE3211C977D001DD9DE /* Services */,
 				0FE89DBF211C90BD001DD9DE /* Main.storyboard */,
 				0FE89DC2211C90BF001DD9DE /* Assets.xcassets */,
 				0FE89DC4211C90BF001DD9DE /* LaunchScreen.storyboard */,
@@ -94,6 +157,31 @@
 				0FE89DD2211C90C0001DD9DE /* Info.plist */,
 			);
 			path = WunderTests;
+			sourceTree = "<group>";
+		};
+		0FE89DDB211C90DA001DD9DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FE89DDC211C9101001DD9DE /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FE89DDE211C92DA001DD9DE /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FE89DDF211C92F0001DD9DE /* CarViewModel.swift */,
+				0FE89DE1211C92F9001DD9DE /* Box.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		0FE89DE3211C977D001DD9DE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0FE89DE4211C97A1001DD9DE /* NetworkManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,8 +265,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3513C1211F4661000945F2 /* CarTableHeaderView.xib in Resources */,
 				0FE89DC6211C90BF001DD9DE /* LaunchScreen.storyboard in Resources */,
 				0FE89DC3211C90BF001DD9DE /* Assets.xcassets in Resources */,
+				0F5951F0211DE0D300F9EE67 /* CarTableViewCell.xib in Resources */,
+				0F5951F5211DEB9800F9EE67 /* MapViewController.xib in Resources */,
+				0F5951FA211E233F00F9EE67 /* CustomMapPopoverView.xib in Resources */,
 				0FE89DC1211C90BD001DD9DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +289,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE89DE5211C97A1001DD9DE /* NetworkManager.swift in Sources */,
+				0F5951EF211DE0D300F9EE67 /* CarTableViewCell.swift in Sources */,
 				0FE89DBE211C90BD001DD9DE /* ViewController.swift in Sources */,
+				0F5951F8211E233500F9EE67 /* CustomMapPopoverView.swift in Sources */,
 				0FE89DBC211C90BD001DD9DE /* AppDelegate.swift in Sources */,
+				0FE89DDD211C9101001DD9DE /* Car.swift in Sources */,
+				0FE89DE0211C92F0001DD9DE /* CarViewModel.swift in Sources */,
+				0F3513BF211F4659000945F2 /* CarTableHeaderView.swift in Sources */,
+				0FE89DE2211C92F9001DD9DE /* Box.swift in Sources */,
+				0F5951F4211DEB9800F9EE67 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE89DE7211CC7D5001DD9DE /* Box.swift in Sources */,
 				0FE89DD1211C90C0001DD9DE /* WunderTests.swift in Sources */,
+				0FE89DEA211CC806001DD9DE /* NetworkManager.swift in Sources */,
+				0FE89DE8211CC7D9001DD9DE /* Car.swift in Sources */,
+				0FE89DE6211CC5C3001DD9DE /* CarViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

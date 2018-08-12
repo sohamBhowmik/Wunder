@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomMapPopoverView" customModule="Wunder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapPin" translatesAutoresizingMaskIntoConstraints="NO" id="TNk-Av-WbI">
+                    <rect key="frame" x="32.5" y="80" width="35" height="20"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="700" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="gX7-0o-dhT">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="87"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HH-GO8065" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xZi-QB-NxM">
+                    <rect key="frame" x="12" y="10" width="76" height="50"/>
+                    <gestureRecognizers/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="TNk-Av-WbI" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="2HL-SQ-HYh"/>
+                <constraint firstItem="TNk-Av-WbI" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="5kg-H0-V3K"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xZi-QB-NxM" secondAttribute="trailing" constant="12" id="KBQ-1u-SJa"/>
+                <constraint firstAttribute="trailing" secondItem="gX7-0o-dhT" secondAttribute="trailing" id="cQb-0K-Gn1"/>
+                <constraint firstItem="gX7-0o-dhT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dMq-ar-Vky"/>
+                <constraint firstItem="TNk-Av-WbI" firstAttribute="top" secondItem="xZi-QB-NxM" secondAttribute="bottom" constant="20" id="dx5-ag-qaI"/>
+                <constraint firstItem="xZi-QB-NxM" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="pgp-N9-gVv"/>
+                <constraint firstItem="TNk-Av-WbI" firstAttribute="top" secondItem="gX7-0o-dhT" secondAttribute="bottom" constant="-7" id="qhO-bk-nX3"/>
+                <constraint firstItem="xZi-QB-NxM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="12" id="rIv-EK-pBP"/>
+                <constraint firstItem="gX7-0o-dhT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tDH-Fv-HoZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="carNameLabel" destination="xZi-QB-NxM" id="Q3f-YI-F9d"/>
+                <outletCollection property="gestureRecognizers" destination="2Zc-pB-817" appends="YES" id="Kvs-cf-m40"/>
+            </connections>
+            <point key="canvasLocation" x="64" y="54"/>
+        </view>
+        <tapGestureRecognizer id="2Zc-pB-817">
+            <connections>
+                <action selector="popoverTapped:" destination="iN0-l3-epB" id="CgN-ax-Keq"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="bubble" width="300" height="210"/>
+        <image name="mapPin" width="35" height="20"/>
+    </resources>
+</document>
